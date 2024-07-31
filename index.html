@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1 crore package</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Studybuddy.in</title>
 </head>
-<body>
-    <form>
-        <h2>APPLICATION FORM</h2>
+<body class="main">
+    <div id="navbar">
+        <a href="#" id="a1">Studybuddy.in</a>
+        <a href="#">Home</a>
+        <a href="#">Study material</a>
+        <input type="search" placehholder="Studybuddy.in">
+        <button id="search"> Search</button>
+    </div>
+    <form class="application" action="/index1.html">
+        <h3 id="h2">APPLICATION FORM</h3>
+        <br>
         <b>MAIL :</b>
         <br>
-        <input type="email"placeholder="Enter your email">
+        <input type="email"placeholder="Enter your email" required>
         <br><br>
         <b>PASSWORD :</b>
         <br>
-        <input type="password"placeholder="Enter your password">
+        <input type="password"placeholder="Enter your password" required>
         <br><br>
         <b>SELECT YOUR COLLEGE :</b>
         <br>
-        <select name="college"id="college">
+        <select name="college"id="college" required>
         <option value="VJTI">VJTI</option>
         <option value="D.J.SANGHVI">D.J.SANGHVI</option>
         <option value="THADOMAL SHAHANI">THADOMAL SHAHANI</option>
@@ -31,14 +40,14 @@
       <b>SELECT YOUR SEMESTER :</b>
     <label for="id1">
         <br>
-        <input type="checkbox" value="1 sem" name="sem 1" id="id1">sem 1
+        <input type="checkbox" value="1 sem" name="sem 1" id="id1">Sem 1
     </label>
         <br>
         <label for="id2">
-        <input type="checkbox" value="2 sem" name="sem 2" id="id2">sem2
+        <input type="checkbox" value="2 sem" name="sem 2" id="id2">Sem 2
     </label>
     <br><br>
-    <button><a href="/index1.html">SUBMIT</a></button>
+    <button type="submit" id="submit">SUBMIT</button>
     </form>
 </body>
 </html>
