@@ -1,2 +1,2 @@
-# 1-crore-pakage
+# StudyBuddy
 join in the process
