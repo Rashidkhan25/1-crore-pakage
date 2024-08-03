@@ -13,7 +13,6 @@
 }
 #navbar{
     height: 30px;
-    /* background-color: black; */
     padding-top: 10px;
     padding-left: 15px;
     position: fixed;
@@ -24,8 +23,8 @@
 }
 a{
     text-decoration: none;
-    margin-right: 200px;
-    color: white;
+    margin-right: 16rem;
+    color: rgb(253, 248, 248);
 }
 #a1{
     color: #f08804;
@@ -72,5 +71,6 @@ a{
     font-weight: 525;
 }
 #bar{
-   border-radius: 20px; 
+   border-radius: 10pxpx; 
+   padding-left:2px;
 }
